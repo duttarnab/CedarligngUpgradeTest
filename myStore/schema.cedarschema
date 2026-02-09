@@ -7,9 +7,6 @@ type Context = {"current_time"?: Long,
 "network_type"?: String, 
 "operating_system"?: String, 
 "user_agent"?: String};
-type Url = {"host": String, 
-"path": String, 
-"protocol": String};
 type email_address = {"domain": String, 
 "uid": String};
 entity Access_token = {"aud": String, 
@@ -20,12 +17,10 @@ entity Access_token = {"aud": String,
 "nbf"?: Long, 
 "scope"?: Set < String >};
 entity Application = {"app_id": String, 
-"name": String, 
-"url": Url};
-entity HTTP_Request = {"header": {"Accept"?: String}, 
-"url": Url};
+"name": String};
+entity HTTP_Request = {"header": {"Accept"?: String}};
 entity Role;
-entity TrustedIssuer = {"issuer_entity_id": Url};
+entity TrustedIssuer = {"issuer_entity_id": String};
 entity User in [Role] = {"email"?: email_address, 
 "id_token"?: id_token, 
 "phone_number"?: String, 
