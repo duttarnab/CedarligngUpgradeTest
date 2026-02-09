@@ -1,0 +1,14 @@
+{
+    "policy_store_id": "0b7db270f4f26c0463cddbb180f300548ad5d78fe087",
+    "generated_date": "2026-02-09T13:56:27.959816+00:00",
+    "files": {
+        "metadata.json": {
+            "size": 324,
+            "checksum": "sha1:84230af79e1d5f23f5519a906785c858fa7942c8"
+        },
+        "schema.cedarschema": {
+            "size": 4249,
+            "checksum": "sha1:de9b13535251cf9504555bde8a4c881f0c63ce52"
+        }
+    }
+}
