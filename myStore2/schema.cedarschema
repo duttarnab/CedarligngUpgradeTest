@@ -1,3 +1,5 @@
+namespace Gluu::Flex::AdminUI {
+}
 namespace Jans {
 type Context = {"current_time"?: Long, 
 "device_health"?: Set < String >, 
