@@ -145,6 +145,8 @@ action "Write" appliesTo {
   context: Context
 };
 }
+namespace Gluu::Flex::AdminUI::Resources {
+}
 namespace test {
 type Context = {"current_time"?: Long, 
 "device_health"?: Set < String >, 
