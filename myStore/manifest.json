@@ -1,10 +1,10 @@
 {
     "policy_store_id": "dd5944b1ca9408c3ad9bafd4dc7a4c188f8dd9b79fda",
-    "generated_date": "2026-02-10T11:59:53.118833+00:00",
+    "generated_date": "2026-02-10T11:59:56.664261+00:00",
     "files": {
         "manifest.json": {
             "size": 563,
-            "checksum": "sha1:848bc8a6f31d23fd84c24c651113914007bedac3"
+            "checksum": "sha1:f90374fd38855c7c59148856ab0b704bf544420e"
         },
         "metadata.json": {
             "size": 324,
@@ -13,6 +13,10 @@
         "schema.cedarschema": {
             "size": 8341,
             "checksum": "sha1:8c5660038e4f0f69560fe4c16a8c1e5b91408c6f"
+        },
+        "trusted-issuers/AdminUITrustedIssuer.json": {
+            "size": 1552,
+            "checksum": "sha1:4a5b6f9a3d2949f66b5f1b572c25d49015df1140"
         }
     }
 }
