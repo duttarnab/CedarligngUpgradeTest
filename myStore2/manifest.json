@@ -1,10 +1,10 @@
 {
     "policy_store_id": "1a54fcdd014d4273cc3820bfd0f79060154b42b9c74a",
-    "generated_date": "2026-02-11T07:31:48.696038+00:00",
+    "generated_date": "2026-02-11T07:32:35.268943+00:00",
     "files": {
         "manifest.json": {
-            "size": 1236,
-            "checksum": "sha1:a3479f4c75d98cce1545f4473932e0438912d625"
+            "size": 1394,
+            "checksum": "sha1:f1a41ae021ae267f137d8cab8134b1d334d09f40"
         },
         "metadata.json": {
             "size": 325,
@@ -13,6 +13,10 @@
         "policies/AdminCanManageAuthServerConfiguration.cedar": {
             "size": 308,
             "checksum": "sha1:fb12c9581d336dcdeca66d62e7e53efa754d6657"
+        },
+        "policies/AdminCanManageEssentialAdminUIScopes.cedar": {
+            "size": 303,
+            "checksum": "sha1:7679a52064e5b4f54cb88e8aee9e7a0d660a895a"
         },
         "policies/AdminCanManageService.cedar": {
             "size": 273,
