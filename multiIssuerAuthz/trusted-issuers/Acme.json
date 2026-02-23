@@ -1,0 +1,21 @@
+{
+    "name": "Acme",
+    "token_metadata": {
+        "access_token": {
+            "entity_type_name": "Acme::Access_Token",
+            "workload_id": "client_id",
+            "principal_mapping": [
+                "Acme::Workload"
+            ]
+        },
+        "id_token": {
+            "entity_type_name": "Acme::Id_Token",
+            "principal_mapping": [
+                "Acme::User"
+            ]
+        }
+    },
+    "configuration_endpoint": "https://idp.acme.com/.well-known/openid-configuration",
+    "description": "Acme Corporation Identity Provider",
+    "id": "7268a55830a7001fa0e76376dc1413cbd74270bb6964"
+}
