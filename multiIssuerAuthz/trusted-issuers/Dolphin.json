@@ -1,0 +1,24 @@
+{
+    "name": "Dolphin",
+    "token_metadata": {
+        "access_token": {
+            "entity_type_name": "Dolphin::Access_Token",
+            "workload_id": "client_id",
+            "principal_mapping": [
+                "Dolphin::Workload"
+            ]
+        },
+        "dolphin_token": {
+            "entity_type_name": "Dolphin::Dolphin_Token",
+            "principal_mapping": [
+                "Dolphin::User"
+            ]
+        },
+        "userinfo_token": {
+            "entity_type_name": "Dolphin::Userinfo_token"
+        }
+    },
+    "configuration_endpoint": "https://idp.dolphin.sea/.well-known/openid-configuration",
+    "description": "Dolphin Sea Identity Provider",
+    "id": "6c3b31f1bebacf2f0d3e3985cb552a3c92ab7d66ed05"
+}
