@@ -9,7 +9,7 @@
             ]
         },
         "id_token": {
-            "entity_type_name": "Acme::Id_token",
+            "entity_type_name": "Acme::id_token",
             "principal_mapping": [
                 "Acme::User"
             ]
