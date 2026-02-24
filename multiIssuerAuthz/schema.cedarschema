@@ -90,7 +90,7 @@ entity Access_token = {"acr"?: __cedar::String,
 "token_type"?: __cedar::String, 
 "validated_at"?: __cedar::Long} tags Set < __cedar::String >;
 entity TrustedIssuer = {"issuer_entity_id": Jans::Url};
-entity User = {"sub"?: __cedar::String};
+entity User = {"sub": __cedar::String};
 entity Userinfo_token = {"acr"?: __cedar::String, 
 "amr"?: Set < __cedar::String >, 
 "aud"?: __cedar::String, 
