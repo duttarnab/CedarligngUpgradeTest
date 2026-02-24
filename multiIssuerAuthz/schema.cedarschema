@@ -8,9 +8,9 @@ type Context = {"current_time"?: Long,
 "operating_system"?: String, 
 "tokens"?: TokensContext, 
 "user_agent"?: String};
-type TokensContext = {"Acme_access_token"?: Acme::Access_token, 
-"Acme_id_token"?: Acme::id_token, 
-"Acme_userinfo_token"?: Acme::Userinfo_token, 
+type TokensContext = {"Acme_access_token"?: Access_token, 
+"Acme_id_token"?: id_token, 
+"Acme_userinfo_token"?: Userinfo_token, 
 "total_token_count": Long};
 entity Access_token = {"acr"?: __cedar::String, 
 "amr"?: Set < __cedar::String >, 
