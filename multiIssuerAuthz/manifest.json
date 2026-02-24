@@ -1,10 +1,10 @@
 {
     "policy_store_id": "08f08d06c48505bd4fa213dd5985daf09ead3c855be7",
-    "generated_date": "2026-02-24T07:02:07.148613+00:00",
+    "generated_date": "2026-02-24T07:03:21.015791+00:00",
     "files": {
         "manifest.json": {
             "size": 860,
-            "checksum": "sha1:860fe4a35bda70e9d1c744e429bcc4bea41d8738"
+            "checksum": "sha1:716edaba797e319aa85057eaa14649783a91d483"
         },
         "metadata.json": {
             "size": 333,
@@ -20,7 +20,7 @@
         },
         "trusted-issuers/Dolphin.json": {
             "size": 748,
-            "checksum": "sha1:acb8825a2294d8f65959f6bc83e782d06c51cb72"
+            "checksum": "sha1:1a3e8b00adc40bb9d61507e80681f17c407b4281"
         }
     }
 }
