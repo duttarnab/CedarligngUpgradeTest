@@ -2,14 +2,14 @@
     "name": "Acme",
     "token_metadata": {
         "access_token": {
-            "entity_type_name": "Acme::Access_Token",
+            "entity_type_name": "Acme::Access_token",
             "workload_id": "client_id",
             "principal_mapping": [
                 "Acme::Workload"
             ]
         },
         "id_token": {
-            "entity_type_name": "Acme::Id_Token",
+            "entity_type_name": "Acme::Id_token",
             "principal_mapping": [
                 "Acme::User"
             ]
