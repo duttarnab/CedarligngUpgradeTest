@@ -8,8 +8,8 @@
                 "Dolphin::Workload"
             ]
         },
-        "dolphin_token": {
-            "entity_type_name": "Dolphin::Dolphin_Token",
+        "id_token": {
+            "entity_type_name": "Dolphin::id_token",
             "principal_mapping": [
                 "Dolphin::User"
             ]
