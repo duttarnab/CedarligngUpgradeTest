@@ -2,7 +2,7 @@
     "name": "Dolphin",
     "token_metadata": {
         "access_token": {
-            "entity_type_name": "Dolphin::Access_Token",
+            "entity_type_name": "Dolphin::Access_token",
             "workload_id": "client_id",
             "principal_mapping": [
                 "Dolphin::Workload"
