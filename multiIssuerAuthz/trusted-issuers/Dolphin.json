@@ -13,9 +13,6 @@
             "principal_mapping": [
                 "Dolphin::User"
             ]
-        },
-        "userinfo_token": {
-            "entity_type_name": "Dolphin::Userinfo_token"
         }
     },
     "configuration_endpoint": "https://idp.dolphin.sea/.well-known/openid-configuration",
