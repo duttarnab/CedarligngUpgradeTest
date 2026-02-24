@@ -66,6 +66,11 @@ entity id_token = {"acr"?: __cedar::String,
 "sub"?: __cedar::String, 
 "token_type"?: __cedar::String, 
 "validated_at"?: __cedar::Long} tags Set < __cedar::String >;
+action "Read" appliesTo {
+  principal: [User],
+  resource: [Jans::Application],
+  context: {}
+};
 }
 namespace Dolphin {
 type Context = {"current_time"?: Long, 
