@@ -1,22 +1,22 @@
 {
     "policy_store_id": "08f08d06c48505bd4fa213dd5985daf09ead3c855be7",
-    "generated_date": "2026-02-24T12:06:23.897183+00:00",
+    "generated_date": "2026-02-24T17:43:41.973772+00:00",
     "files": {
         "manifest.json": {
-            "size": 860,
-            "checksum": "sha1:6f9cdd32c5e4ac8585a72911d1524a45c66d1a58"
+            "size": 1001,
+            "checksum": "sha1:7e1850d549f8db1f10adf7744bacd8a0560dab26"
         },
         "metadata.json": {
             "size": 333,
-            "checksum": "sha1:1f24318ad5fb6bbaede36a2d014003bb848d03be"
+            "checksum": "sha1:745a0d96669886cebd22e7dc1acb618fb1beeff9"
         },
         "policies/test.cedar": {
             "size": 128,
             "checksum": "sha1:053a4c2bcae1666b68455fc63e29368fc3947c20"
         },
         "schema.cedarschema": {
-            "size": 8056,
-            "checksum": "sha1:cbaee0d5cf6d0088d6371f3f2088acb736d4ed68"
+            "size": 8029,
+            "checksum": "sha1:e43ac6afc1e7e91ab9b46faf40729bacfb1a75ec"
         },
         "trusted-issuers/Acme.json": {
             "size": 628,
