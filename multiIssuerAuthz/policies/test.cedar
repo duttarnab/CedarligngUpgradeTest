@@ -4,5 +4,5 @@ permit(
   resource in Acme::Application::"any_id"
 )
 when {
-  context has tokens.acme_access_token
+  context has tokens
 };
