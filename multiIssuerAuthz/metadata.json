@@ -4,7 +4,7 @@
         "id": "08f08d06c48505bd4fa213dd5985daf09ead3c855be7",
         "name": "multiIssuerAuthz",
         "description": "",
-        "version": "0.0.1",
+        "version": "0.0.4",
         "created_date": "2026-02-23T07:41:18.944749+00:00",
         "updated_date": "2026-02-27T18:15:59.670416+00:00"
     }
