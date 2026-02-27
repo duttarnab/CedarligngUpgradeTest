@@ -1,5 +1,5 @@
 permit(
-  principal in Acme::Role::"admin",
+  principal,
   action == Acme::Action::"Read",
   resource in Acme::Application::"any_id"
 )
