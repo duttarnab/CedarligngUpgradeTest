@@ -1,0 +1,11 @@
+{
+    "cedar_version": "4.9.0",
+    "policy_store": {
+        "id": "724074deeefd46e3053278eede3432718c581ad69f03",
+        "name": "admin_ui_1_0",
+        "description": "Multi Issuer Policy Store of Admin UI",
+        "version": "0.0.0",
+        "created_date": "2026-03-03T14:46:45.966355+00:00",
+        "updated_date": "2026-03-03T14:46:45.966408+00:00"
+    }
+}
