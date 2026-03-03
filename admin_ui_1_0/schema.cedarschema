@@ -39,6 +39,8 @@ namespace Gluu::Flex::AdminUI {
     scope?: Set<String>
   };
 
+  entity Any;
+
   entity Application = {
     app_id: String,
     name: String,
@@ -108,19 +110,19 @@ namespace Gluu::Flex::AdminUI {
   };
 
   action "delete" appliesTo {
-    principal: [User],
+    principal: [Any],
     resource: [Gluu::Flex::AdminUI::Resources::Features, Gluu::Flex::AdminUI::Resources::ParentResource],
     context: {}
   };
 
   action "read" appliesTo {
-    principal: [User],
+    principal: [Any],
     resource: [Gluu::Flex::AdminUI::Resources::Features, Gluu::Flex::AdminUI::Resources::ParentResource],
     context: {}
   };
 
   action "write" appliesTo {
-    principal: [User],
+    principal: [Any],
     resource: [Gluu::Flex::AdminUI::Resources::Features, Gluu::Flex::AdminUI::Resources::ParentResource],
     context: {}
   };
