@@ -7,7 +7,7 @@ namespace Gluu::Flex::AdminUI {
     network?: String,
     network_type?: String,
     operating_system?: String,
-    tokens: Access_token,
+    tokens?: Access_token,
     user_agent?: String
   };
 
