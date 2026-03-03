@@ -1,6 +1,6 @@
 {
     "policy_store_id": "dabec893ca3ec33b8caa7bbf85bb70d59ae5fb5c1f64",
-    "generated_date": "2026-03-03T17:33:59.619768+00:00",
+    "generated_date": "2026-03-03T17:49:50.441095+00:00",
     "files": {
         "entities/ParentResourceToFeaturesMapping.json": {
             "size": 9283,
@@ -8,15 +8,15 @@
         },
         "manifest.json": {
             "size": 894,
-            "checksum": "sha1:2168956ea54c98cd900439c33c8c531a82d92371"
+            "checksum": "sha1:87979947c053994dde1e59ca4f1fb130eb8cf0a2"
         },
         "metadata.json": {
             "size": 329,
-            "checksum": "sha1:f4045e43a44d7a39a6880c8321d285e829cbcb3b"
+            "checksum": "sha1:a478a8985227fd21d34d267708d76b10211d1b87"
         },
         "schema.cedarschema": {
-            "size": 2681,
-            "checksum": "sha1:05cc32b54e1129b6ee7e41a392af6799a97f887f"
+            "size": 2732,
+            "checksum": "sha1:c1f9118a2ad0409f9d1cac53521a1f6b631b807f"
         },
         "trusted-issuers/Gluu::Flex::AdminUI.json": {
             "size": 1551,
