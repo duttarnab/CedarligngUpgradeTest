@@ -37,7 +37,7 @@ namespace Gluu::Flex::AdminUI {
     jti?: String,
     nbf?: Long,
     scope?: Set<String>
-  };
+  } tags Set<String>;
 
   entity Any;
 
@@ -81,7 +81,7 @@ namespace Gluu::Flex::AdminUI {
     name?: String,
     phone_number?: String,
     sub: String
-  };
+  } tags Set<String>;
 
   entity Workload = {
     access_token?: Access_token,
@@ -107,7 +107,7 @@ namespace Gluu::Flex::AdminUI {
     phone_number?: String,
     role?: Set<String>,
     sub: String
-  };
+  } tags Set<String>;
 
   action "delete" appliesTo {
     principal: [Any],
