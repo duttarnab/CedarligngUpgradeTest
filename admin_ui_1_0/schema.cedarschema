@@ -10,6 +10,13 @@ namespace Gluu::Flex::AdminUI {
     user_agent?: String
   };
 
+  type TokensContext = {
+    adminui_access_token?: Access_token,
+    adminui_id_token?: id_token,
+    adminui_userinfo_token?: Userinfo_token,
+    total_token_count: Long
+  };
+
   type Url = {
     host: String,
     path: String,
