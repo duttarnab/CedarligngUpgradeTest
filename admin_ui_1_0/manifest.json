@@ -1,18 +1,18 @@
 {
     "policy_store_id": "dabec893ca3ec33b8caa7bbf85bb70d59ae5fb5c1f64",
-    "generated_date": "2026-03-03T15:41:37.244506+00:00",
+    "generated_date": "2026-03-03T15:42:01.117453+00:00",
     "files": {
         "manifest.json": {
-            "size": 563,
-            "checksum": "sha1:f812f7df98aedc89b7f1975cf221f000f70e2092"
+            "size": 726,
+            "checksum": "sha1:c21c07fd93ec26313491866c019305e12f822146"
         },
         "metadata.json": {
             "size": 329,
-            "checksum": "sha1:e7608533b71e255b733ed9786deb8ce2a3ceca43"
+            "checksum": "sha1:932b8b62df1e379d7935cfd415ad8ccd1f4dc7ef"
         },
         "schema.cedarschema": {
-            "size": 6172,
-            "checksum": "sha1:d389dfc15039936da7d295f1c3f00c37af8f66cd"
+            "size": 2464,
+            "checksum": "sha1:7834012194fe52d92595df80e64b5a34db18150a"
         },
         "trusted-issuers/Gluu::Flex::AdminUI.json": {
             "size": 1551,
