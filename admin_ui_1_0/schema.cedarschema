@@ -112,19 +112,19 @@ namespace Gluu::Flex::AdminUI {
   action "delete" appliesTo {
     principal: [Any],
     resource: [Gluu::Flex::AdminUI::Resources::Features, Gluu::Flex::AdminUI::Resources::ParentResource],
-    context: {}
+    context: Context
   };
 
   action "read" appliesTo {
     principal: [Any],
     resource: [Gluu::Flex::AdminUI::Resources::Features, Gluu::Flex::AdminUI::Resources::ParentResource],
-    context: {}
+    context: Context
   };
 
   action "write" appliesTo {
     principal: [Any],
     resource: [Gluu::Flex::AdminUI::Resources::Features, Gluu::Flex::AdminUI::Resources::ParentResource],
-    context: {}
+    context: Context
   };
 }
 
