@@ -1,26 +1,26 @@
 {
     "policy_store_id": "dabec893ca3ec33b8caa7bbf85bb70d59ae5fb5c1f64",
-    "generated_date": "2026-03-04T06:46:14.904625+00:00",
+    "generated_date": "2026-03-04T13:40:29.738995+00:00",
     "files": {
         "entities/ParentResourceToFeaturesMapping.json": {
             "size": 9283,
             "checksum": "sha1:141ae75f37561dcfc23ce37bb29f4e330a95b7ca"
         },
         "manifest.json": {
-            "size": 894,
-            "checksum": "sha1:96d40d924c696958095d94bbdb14fd2e727e03d9"
+            "size": 1068,
+            "checksum": "sha1:4f4c9c525f07a59f85062a43f7e5e8f007b19d4c"
         },
         "metadata.json": {
             "size": 329,
-            "checksum": "sha1:4925f8bbdea9d40589f91c39cba2ca500f949245"
+            "checksum": "sha1:9a92de093f0c648d7bb0b4b75f31ba81218233ff"
         },
         "policies/AdminCanManageAuthServerConfiguration.cedar": {
             "size": 293,
             "checksum": "sha1:e4f8c20ed3d0b08b4f13a05bce7aae4ae7166717"
         },
         "schema.cedarschema": {
-            "size": 2733,
-            "checksum": "sha1:a86c26efa16a994d56ab7dc7367ebdf48f0395f1"
+            "size": 2748,
+            "checksum": "sha1:2ab057e76ec515c664f0c05e8df77307c39f6e8e"
         },
         "trusted-issuers/Gluu::Flex::AdminUI.json": {
             "size": 1551,
