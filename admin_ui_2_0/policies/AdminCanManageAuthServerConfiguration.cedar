@@ -5,4 +5,8 @@ permit (
   GluuFlexAdminUI::Action::"write",
   GluuFlexAdminUI::Action::"delete"],
   resource in GluuFlexAdminUIResources::ParentResource::"AuthServerAndConfiguration"
-);
+) when {
+    context has tokens.adminui_userinfo_token &&
+    context.tokens.adminui_userinfo_token.hasTag("jansAdminUIRole") &&
+    context.tokens.adminui_userinfo_token.getTag("jansAdminUIRole").contains("admin")
+};
