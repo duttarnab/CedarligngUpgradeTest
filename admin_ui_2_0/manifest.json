@@ -1,14 +1,14 @@
 {
     "policy_store_id": "36ccd2e612a9d3543487b6e25283f5403bed9d1d5f32",
-    "generated_date": "2026-03-17T17:53:08.998833+00:00",
+    "generated_date": "2026-03-17T17:53:55.792295+00:00",
     "files": {
         "entities/ParentResourceToFeaturesMapping.json": {
             "size": 9507,
             "checksum": "sha1:dd0f4f0cd68c79bd59373b58b459c623a44bfa8d"
         },
         "manifest.json": {
-            "size": 1065,
-            "checksum": "sha1:744f1d291e9d5fc6a3b11e93996a77711c2c19b7"
+            "size": 1235,
+            "checksum": "sha1:fd6e40fbb2d2c1bd8231e19990b284725a7619ee"
         },
         "metadata.json": {
             "size": 360,
@@ -17,6 +17,10 @@
         "policies/AdminCanManageAuthServerConfiguration.cedar": {
             "size": 513,
             "checksum": "sha1:b6dd8f4a112742765f0afa53efeaf69a7f9c7fb5"
+        },
+        "policies/AdminCanManageIdentityAndAccess.cedar": {
+            "size": 498,
+            "checksum": "sha1:94edc8e07be58086d8ba755c8a69cbdf174f02ac"
         },
         "policies/AdminCanManageSystemAndMonitoring.cedar": {
             "size": 502,
