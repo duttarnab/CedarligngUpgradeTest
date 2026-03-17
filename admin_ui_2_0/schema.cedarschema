@@ -12,9 +12,9 @@ namespace GluuFlexAdminUI {
   };
 
   type TokensContext = {
-    gluuflexadminui_access_token?: Access_token,
-    gluuflexadminui_id_token?: id_token,
-    gluuflexadminui_userinfo_token?: Userinfo_token,
+    gluuflexadminui_access_token?: GluuFlexAdminUI::Access_token,
+    gluuflexadminui_id_token?: GluuFlexAdminUI::id_token,
+    gluuflexadminui_userinfo_token?: GluuFlexAdminUI::Userinfo_token,
     total_token_count: Long
   };
 
