@@ -95,7 +95,7 @@ namespace GluuFlexAdminUI {
   entity id_token = {
     acr?: String,
     amr?: Set<String>,
-    aud: Set<String>,
+    aud: String,
     azp?: String,
     birthdate?: String,
     email?: email_address,
