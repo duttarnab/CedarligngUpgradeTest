@@ -1,18 +1,18 @@
 {
     "policy_store_id": "36ccd2e612a9d3543487b6e25283f5403bed9d1d5f32",
-    "generated_date": "2026-03-17T17:58:32.408503+00:00",
+    "generated_date": "2026-03-25T08:47:19.674938+00:00",
     "files": {
         "entities/ParentResourceToFeaturesMapping.json": {
             "size": 9507,
             "checksum": "sha1:dd0f4f0cd68c79bd59373b58b459c623a44bfa8d"
         },
         "manifest.json": {
-            "size": 1896,
-            "checksum": "sha1:ce8e5e9b6656660af7cf76fa47c0327a431350dc"
+            "size": 2063,
+            "checksum": "sha1:8f3ff1b9db8cddc1364f17eb9e3367477fac1753"
         },
         "metadata.json": {
             "size": 360,
-            "checksum": "sha1:5175bc2733f89098354d34ef24ee0904a7d2f7c2"
+            "checksum": "sha1:481540e7093983066ead71d04f6eb691ddc8dfbe"
         },
         "policies/AdminCanManageAuthServerConfiguration.cedar": {
             "size": 513,
@@ -47,8 +47,8 @@
             "checksum": "sha1:2959c1ef2956fe850b3618192a896ad6b6ef32c2"
         },
         "trusted-issuers/GluuFlexAdminUI.json": {
-            "size": 1523,
-            "checksum": "sha1:fb1fa9f51f3fcfa26ab545865691e608c6755026"
+            "size": 1532,
+            "checksum": "sha1:75fcafc45ef76eaba3e6006eb210a0f6f62313b4"
         }
     }
 }
