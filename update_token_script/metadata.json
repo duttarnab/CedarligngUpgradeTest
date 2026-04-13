@@ -1,0 +1,11 @@
+{
+    "cedar_version": "4.9.0",
+    "policy_store": {
+        "id": "3a78630dbf6db710e26f22e95cfe2bea8c19eba2ea16",
+        "name": "update_token_script",
+        "description": "",
+        "version": "0.0.0",
+        "created_date": "2026-04-13T11:37:51.475960+00:00",
+        "updated_date": "2026-04-13T11:37:51.475994+00:00"
+    }
+}
