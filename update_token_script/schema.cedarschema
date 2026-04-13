@@ -1,3 +1,54 @@
+namespace Jans {
+  type Context = {
+    current_time?: Long,
+    device_health?: Set<String>,
+    fraud_indicators?: Set<String>,
+    geolocation?: Set<String>,
+    network?: String,
+    network_type?: String,
+    operating_system?: String,
+    user_agent?: String
+  };
+
+  type Url = __cedar::String;
+
+  type email_address = {
+    domain: String,
+    uid: String
+  };
+
+  entity Application = {
+    grantTypes: Set<String>
+  };
+
+  entity Role;
+
+  entity TrustedIssuer = {
+    issuer_entity_id: Url
+  };
+
+  entity User in [Role] = {
+    email?: email_address,
+    role: Set<String>,
+    sub?: String
+  };
+
+  entity Workload = {
+    client_id: String,
+    grantTypes: Set<String>,
+    iss?: TrustedIssuer,
+    name?: String,
+    rp_id?: String,
+    spiffe_id?: String
+  };
+
+  action "Execute" appliesTo {
+    principal: [Workload],
+    resource: [Application],
+    context: Context
+  };
+}
+
 namespace Jans1 {
   type Context = {
     current_time?: Long,
