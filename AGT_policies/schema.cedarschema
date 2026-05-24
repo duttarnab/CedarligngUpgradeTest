@@ -116,14 +116,14 @@ namespace AGT {
   } tags Set<String>;
 
   action "Read" appliesTo {
-    principal: [User, Workload],
-    resource: [Application],
+    principal: [Agent],
+    resource: [Resource],
     context: Context
   };
 
   action "Write" appliesTo {
-    principal: [User, Workload],
-    resource: [Application],
+    principal: [Agent],
+    resource: [Resource],
     context: Context
   };
 }
