@@ -51,6 +51,8 @@ namespace AGT {
     url: Url
   };
 
+  entity Resource;
+
   entity Role;
 
   entity TrustedIssuer = {
@@ -111,31 +113,13 @@ namespace AGT {
     validated_at?: Long
   } tags Set<String>;
 
-  action "Compare" appliesTo {
-    principal: [User, Workload],
-    resource: [Application],
-    context: Context
-  };
-
   action "DELETE" appliesTo {
     principal: [Workload],
     resource: [HTTP_Request],
     context: Context
   };
 
-  action "Execute" appliesTo {
-    principal: [User, Workload],
-    resource: [Application],
-    context: Context
-  };
-
   action "GET" appliesTo {
-    principal: [Workload],
-    resource: [HTTP_Request],
-    context: Context
-  };
-
-  action "HEAD" appliesTo {
     principal: [Workload],
     resource: [HTTP_Request],
     context: Context
@@ -147,43 +131,13 @@ namespace AGT {
     context: Context
   };
 
-  action "PATCH" appliesTo {
-    principal: [Workload],
-    resource: [HTTP_Request],
-    context: Context
-  };
-
   action "POST" appliesTo {
     principal: [Workload],
     resource: [HTTP_Request],
     context: Context
   };
 
-  action "PUT" appliesTo {
-    principal: [Workload],
-    resource: [HTTP_Request],
-    context: Context
-  };
-
   action "Read" appliesTo {
-    principal: [User, Workload],
-    resource: [Application],
-    context: Context
-  };
-
-  action "Search" appliesTo {
-    principal: [User, Workload],
-    resource: [Application],
-    context: Context
-  };
-
-  action "Share" appliesTo {
-    principal: [User, Workload],
-    resource: [Application],
-    context: Context
-  };
-
-  action "Tag" appliesTo {
     principal: [User, Workload],
     resource: [Application],
     context: Context
