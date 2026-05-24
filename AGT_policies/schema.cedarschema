@@ -38,6 +38,8 @@ namespace AGT {
     validated_at?: Long
   } tags Set<String>;
 
+  entity Agent;
+
   entity Application = {
     app_id: String,
     name: String,
@@ -112,30 +114,6 @@ namespace AGT {
     token_type?: String,
     validated_at?: Long
   } tags Set<String>;
-
-  action "DELETE" appliesTo {
-    principal: [Workload],
-    resource: [HTTP_Request],
-    context: Context
-  };
-
-  action "GET" appliesTo {
-    principal: [Workload],
-    resource: [HTTP_Request],
-    context: Context
-  };
-
-  action "Monitor" appliesTo {
-    principal: [User, Workload],
-    resource: [Application],
-    context: Context
-  };
-
-  action "POST" appliesTo {
-    principal: [Workload],
-    resource: [HTTP_Request],
-    context: Context
-  };
 
   action "Read" appliesTo {
     principal: [User, Workload],
