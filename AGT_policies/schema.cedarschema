@@ -38,7 +38,9 @@ namespace AGT {
     validated_at?: Long
   } tags Set<String>;
 
-  entity Agent;
+  entity Agent = {
+    role: __cedar::String
+  };
 
   entity Application = {
     app_id: String,
