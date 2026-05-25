@@ -1,6 +1,9 @@
-@id("Describe_the_AGT_read_permit_policy")
+@id("Allow_all_access_to_admin")
 permit(
   principal,
-  action == AGT::Action::"Read",
+  action in [AGT::Action::"ReadResource",AGT::Action::"WriteResource", AGT::Action::"DeleteResource"],
   resource
-);
+)
+when {
+  principal.role == "admin"
+};
