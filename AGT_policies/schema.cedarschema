@@ -115,13 +115,19 @@ namespace AGT {
     validated_at?: Long
   } tags Set<String>;
 
-  action "Read" appliesTo {
+  action "DeleteResource" appliesTo {
+    principal: [Agent],
+    resource: [Resource],
+    context: {}
+  };
+
+  action "ReadResource" appliesTo {
     principal: [Agent],
     resource: [Resource],
     context: Context
   };
 
-  action "Write" appliesTo {
+  action "WriteResource" appliesTo {
     principal: [Agent],
     resource: [Resource],
     context: Context
